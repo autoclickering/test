@@ -1,4 +1,4 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("Scrpit By Dream");
 
@@ -11,4 +11,4 @@ channel.send(♥الله اكبر);
 })
  
  
-client.login("NTEwMjE3MDAzMjY1NTU2NDgw.DsZIfg.HxrxifEfUgTDPoRWXOGb9K_nXQI");
+client.login(process.env.BOT_TOKEN);
